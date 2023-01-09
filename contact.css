@@ -1,0 +1,176 @@
+body {
+	background-color: gainsboro;
+}
+
+h4, h5 {
+	padding: 0.75em 0em;
+}
+
+.contact {
+	text-align: center;
+	font-family: Roboto;
+	color: darkgoldenrod;
+	background-color: gainsboro;
+	margin: 1em 5em;
+	padding-bottom: 1em;
+	border-bottom: 10px solid goldenrod;
+}
+
+.address {
+	padding: 5em 0em;
+}
+
+/*List of Contacts*/
+
+.contactlist {
+	background-color: floralwhite;
+	border-radius: 25px;
+}
+
+.name {
+	font-weight: bold;
+}
+
+/*Dropdown for Menu*/
+
+li.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: darkgoldenrod;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: floralwhite; 	color: darkgoldenrod;	text-decoration: underline;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  position: absolute;
+}
+
+
+/* Navigation Bar */
+ 
+.navrow{
+position: sticky;
+top: 0;
+z-index: 10;
+background-color: darkgoldenrod;
+}
+ 
+.nav-link{
+margin: 2em 0em 2em 1.5em;
+font-size: 1em;
+color: gainsboro;
+font-family: 'Merriweather Sans', sans-serif;
+}
+ 
+.nav-link:hover{
+color: ivory;
+font-weight: bold;
+text-shadow: 1px 1px goldenrod;
+}
+ 
+#Contact{
+text-align: center;
+padding: 0.5em 0em 0.5em 0em;
+font-size: 3em;
+font-weight: bolder;
+text-shadow: 2px 2px gold;
+font-family: 'Abhaya Libre', serif;
+}
+
+#contactlink {
+	border: 1px solid white;
+}
+
+/* Contact Us Form  */
+
+.contactform {
+	padding-left: 4em;
+}
+
+#formheader{
+	border-bottom: 1px dotted goldenrod;
+}
+
+h4+p{
+	color: darkslategray;
+}
+
+form {
+	border-radius: 25px;
+	color: black;
+}
+
+/* Page Transitions */
+
+#effect1{
+width: 20px;
+height: 20px;
+top: 50%;
+left: 45%;
+position: absolute;
+opacity: 0;
+background-color: goldenrod;
+animation-name: effectone;
+animation-duration: 2s;
+}
+#effect2{
+width: 20px;
+height: 20px;
+top: 50%;
+left: 50%;
+position: absolute;
+opacity: 0;
+background-color: goldenrod;
+animation-name: effecttwo;
+animation-duration: 1.75s;
+animation-delay: 0.25s;
+}
+#effect3{
+width: 20px;
+height: 20px;
+top: 50%;
+left: 55%;
+position: absolute;
+opacity: 0;
+background-color: goldenrod;
+animation-name: effectthree;
+animation-duration: 1.5s;
+animation-delay: 0.5s;
+}
+ 
+@keyframes effectone{
+from {opacity: 0;}
+to {opacity: 1;}
+}
+ 
+@keyframes effecttwo{
+from {opacity: 0;}
+to {opacity: 1;}
+}
+ 
+@keyframes effectthree{
+from {opacity: 0;}
+to {opacity: 1;}
+}
+ 
+#effect{
+opacity: 0;
+transition: opacity 2s ease-out;
+}

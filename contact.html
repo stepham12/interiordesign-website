@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contact Us</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="contact.css">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<span id="effect1"></span>
+<span id="effect2"></span>
+<span id="effect3"></span>
+<section id="effect">
+
+<div class="container-fluid">
+	<div class="row navrow">
+		<div class="col-lg-6" id="Contact">
+		Contact Us
+		</div>
+		<div class="col-lg-6">
+			<ul class="nav" id="links">
+				<li class="nav-item">
+				<a class="nav-link" href="index.html">Home</a>
+				</li>
+				<li class="nav-item dropdown">
+						<a href="javascript:void(0)" class="nav-link" id = "aboutlink" href="about.html">About Us</a>
+						<div class="dropdown-content">
+							<a href="about.html">About the company</a>
+							<a href="about_us.html">About the developers</a>
+					
+					</div>
+
+					
+					</li>
+				<li class="nav-item">
+				<a class="nav-link" href="catalog.html">Our Works</a>
+				</li>
+				<li class="nav-item dropdown">
+				    <a href="javascript:void(0)" id = "contactlink" class="nav-link">Contact Us</a>
+				    <div class="dropdown-content">
+				      <a href="contact.html">Contact</a>
+				      <a href="directions.html">Directions</a>
+				    </div>
+				</li>			
+			</ul>
+		</div>
+	</div>
+
+	<div class = "row contact">
+		<div class = "col-md-5 contactlist">
+			<h5> <i class = "fas fa-envelope"> </i>Email</h5>
+			<p>
+				enquiries@eurimage.com.my
+			</p>
+			<h5> <i class = "fas fa-phone"> </i> Phone</h5>
+			<p>
+				03-61897118
+			</p>
+			<h5> <i class = "fas fa-fax"> </i> Fax</h5>
+			<p>
+				03-61897039
+			</p>
+			<h5>Board of Directors</h5>
+			<p class = "name">
+				Cynthia Leng (Director)
+			</p>
+			<p>
+				hp no. 019-3345923
+			</p>
+			<p class = "name">
+				April Leng (Director)
+			</p>
+			<p>
+				hp no. 016-3345923
+			</p>
+			<p class = "name">
+				Francis Chan (Project Director)
+			</p>
+			<p>
+				hp no. 019-3315578
+			</p>
+		</div>
+		<div class = "col-md-7 contactform">
+			<h4 id = "formheader">Send a Message</h4>
+			<p> Please fill out the form below for inquiries, and we will respond as soon as possible.</p>
+			<form method="POST" action="http://examples.funwebdev.com/process.php" class = "shadow p-4 mb-4 bg-light">
+			  <div class="form-group">
+			    <label for="name">Name:</label>
+			    <input type="text" name = "name" class="form-control" placeholder="Enter your name" id="name" required>
+			  </div>
+			  <div class="form-group">
+			    <label for="email">Email:</label>
+			    <input type="email" name = "email" class="form-control" placeholder="Enter your email" id="email" required>
+			  </div>
+			  <div class="form-group">
+				  <label for="message">Message:</label>
+				  <textarea class="form-control" name = "message" rows="8" id="message" required></textarea>	
+				</div>
+			  <button type="submit" class="btn btn-dark">Submit</button>
+			</form>
+			
+		</div>
+
+	</div>
+
+</div>
+
+</section>
+
+<script type="text/javascript" src="js/transitions.js"></script>
+
+</body>
+
+</html>
